@@ -26,7 +26,7 @@ import com.felix.cerdos.security.postgresql.cerdos.repository.TweetRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/api/comments")
 
